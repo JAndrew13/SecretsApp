@@ -119,16 +119,14 @@ After logging in, you are taken to the "secrets" page. This page displays secret
 
 ## Directory
 
-### [/root]()
+### [/root](https://github.com/JAndrew13/SecretsApp)
 Contains the main **app.js** file, as well as .env variables for the google API
 
-### [/Public/CSS]()
+### [/Public/CSS](https://github.com/JAndrew13/SecretsApp/tree/main/public/css)
 
 Folder containing CSS style sheet linked to the HTML document
 
-
-
-### [/Views/partials]()
+### [/Views](https://github.com/JAndrew13/SecretsApp/tree/main/views)
 
 Contains all pages and components used in the website
 
