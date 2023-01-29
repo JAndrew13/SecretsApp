@@ -34,7 +34,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Connect App to LOCAL Database
-mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true});
+const mongoAtlasKey = process.env.MONGO_ATLAS_KEY;
+mongoose.connect(mongoAtlasKey, {useNewUrlParser: true});
 
 // Create user schema with encryption
 const userSchema = new mongoose.Schema({
