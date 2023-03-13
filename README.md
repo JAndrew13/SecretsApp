@@ -9,6 +9,8 @@ Starting with account creation, new users can enter details manually or login us
 
 Being centered around web security and authentication methods, over the course of the development process I learned and implemented 6 different types of security layers. Though it is quite simple, it taught me invaluable lessons on why and how to include security in my future projects - starting with basic user registration, and ending with Google OAuth2 connections. Below is a breakdown of each of the successive security techniques.
 
+have a look at the [live project](https://secrets.jakebrunner.com/)
+
 <img src="https://github.com/JAndrew13/SecretsApp/blob/main/Secrets.jpg" width="1000">
 
 #### Layer 1: User Registration and login
